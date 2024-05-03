@@ -12,9 +12,9 @@ function doGet(e: GoogleAppsScript.Events.DoGet) {
   const htmlTemp = HtmlService.createTemplateFromFile("index");
   const outPut = htmlTemp.evaluate();
   outPut.setTitle("titlename");
-  /* ファビコンを入れる予定 */
-  //Google drive asset
-  //https://drive.google.com/file/d//view?usp=drive_link
+  /* insert favicon */
+  //use Google drive asset
+  //faviconurl = "https://drive.google.com/file/d//uc?id=yourImageDataId*****id****id&.png"
   /* outPut.setFaviconUrl("faviconurl"); */
   // add viewport for mobile
   outPut.addMetaTag("viewport", "width=device-width, initial-scale=1.0");
@@ -24,7 +24,7 @@ function doGet(e: GoogleAppsScript.Events.DoGet) {
 
 /**
  * @see https://qiita.com/kyamadahoge/items/5c916d57f2dce3693c26
- * @description html側からHTMLファイルをincludeする関数
+ * @description html側からHTMLファイルをincludeする関数 こちらをHTML側から実行する
  * @author yoshitaka <sato-yoshitaka@aktio.co.jp>
  * @date 2024-05-03
  * @param {*} filename

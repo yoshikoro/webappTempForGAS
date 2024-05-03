@@ -1,2 +1,15 @@
 # webappTempForGAS
+
 webapp template for gas
+
+## GAS でウェブアプリを LOCAL で構築する為のテンプレートです
+
+###　使用技術
+
+- VsCode(editor)
+  - VsCode Extension: more(debug)
+- TypeScript(js is also fine)
+- Nodejs(npm or yarn)
+  - @types/google-apps-script
+  - Google/Clasp(global)
+- git(use git bash)
