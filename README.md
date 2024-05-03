@@ -4,7 +4,7 @@ webapp template for gas
 
 ## GAS でウェブアプリを LOCAL で構築する為のテンプレートです
 
-### 使用技術
+### 使用しているソフト等
 
 - VsCode(editor)
   - VsCode Extension: more(debug)
@@ -16,7 +16,10 @@ webapp template for gas
 
 ### ざっくりとした流れ
 
-src フォルダで開発 →dist フォルダが GAS へアップロードするファイルを入れるフォルダ →VscCode でデバッグする →nodeJs も使う場合を想定
+src フォルダで開発 →  
+dist フォルダが GAS へアップロードするファイルを入れるフォルダ →  
+VsCode でデバッグする →  
+nodeJs も使う場合を想定
 
 ### 使い方
 
