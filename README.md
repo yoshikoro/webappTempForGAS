@@ -20,14 +20,14 @@ src フォルダで開発 →dist フォルダが GAS へアップロードす�
 
 ### 使い方
 
-Vscode をインストール（User インストールの場合は管理者権限は不要です）
-[Vscode](https://code.visualstudio.com/)
-nodejs(npm) をインストール(要管理者権限)
-[nodejs](https://nodejs.org/ja/)
-nodejs と一緒にインストールされますが一応
-[npm](https://www.npmjs.com/)
-git をインストール(要管理者権限)
-[git](https://git-scm.com/)
+Vscode をインストール（User インストールの場合は管理者権限は不要です）  
+[Vscode](https://code.visualstudio.com/)  
+nodejs(npm) をインストール(要管理者権限)  
+[nodejs](https://nodejs.org/ja/)  
+nodejs と一緒にインストールされますが一応  
+[npm](https://www.npmjs.com/)  
+git をインストール(要管理者権限)  
+[git](https://git-scm.com/)  
 3 点をインストール後に
 
 ```bash
