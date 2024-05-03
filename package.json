@@ -1,0 +1,15 @@
+{
+  "name": "webappforgas",
+  "version": "1.0.0",
+  "description": "webap for gas template",
+  "main": "index.js",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.83",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yoshikoro",
+  "license": "MIT"
+}
